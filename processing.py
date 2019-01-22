@@ -113,8 +113,6 @@ def savenpy(id,annos,filelist,data_path,prep_folder):
     extendbox = np.vstack([np.max([[0,0,0],box[:,0]-margin],0),np.min([newshape,box[:,1]+2*margin],axis=0).T]).T
     extendbox = extendbox.astype('int')
 
-
-
     convex_mask = m1
     dm1 = process_mask(m1)
     dm2 = process_mask(m2)

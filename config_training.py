@@ -1,9 +1,9 @@
-config = {'stage1_data_path':'T:/1thesis/DSB3/stage1/stage1/stage1',
+config = {'stage1_data_path':'./Sample_data',
           'luna_raw':'/work/DataBowl3/luna/raw/',
           'luna_segment':'/work/DataBowl3/luna/seg-lungs-LUNA16/',
           
           'luna_data':'/work/DataBowl3/luna/allset',
-          'preprocess_result_path':'./preprocess_result_path1',       
+          'preprocess_result_path':'./preprocess_result_path',       
           
           'luna_abbr':'./detector/labels/shorter.csv',
           'luna_label':'./detector/labels/lunaqualified.csv',
